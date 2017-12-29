@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Intent it = new Intent();
         it.setAction(Intent.ACTION_SEND);
         it.setType("text/plain");
-        it.putExtra(Intent.EXTRA_TEXT,"這是要分享的文字");
+        it.putExtra(Intent.EXTRA_TEXT,"這是要分享的文字123123");
         startActivity(it);
     }
 }
